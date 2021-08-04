@@ -3,7 +3,7 @@ FROM fedora:latest
 RUN dnf install -y \
     jq \
     curl \
-    java-11-openjdk
+    java-latest-openjdk
 
 WORKDIR /minecraft
 
