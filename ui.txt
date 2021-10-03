@@ -1,0 +1,4 @@
+mc fetch 'latest'
+mc run '/op heavymetalpanda'
+mc wrap /usr/bin/java -Xmx2048M -Xms2048M -jar ./server.jar --nogui
+mc attach
